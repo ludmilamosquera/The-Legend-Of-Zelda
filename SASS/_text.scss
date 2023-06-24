@@ -1,0 +1,59 @@
+h1{
+  font-size: 6em;
+  color: $color1;
+  padding:10px
+}
+
+h2{
+  font-size: 3em;
+  color: $color1;
+}
+
+figcaption {
+  text-align: center;
+  caption-side: bottom;
+  color:$color1;
+}
+.fuente {
+  color: $color1;
+  padding:8px
+}
+
+.strong {
+  display: flex;
+  justify-content: center;
+  color: $color1;;
+  font-weight: bold;
+  }
+
+.background {
+  color: $color1;;
+  background-color: $fondo;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.img__description {
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: $color1;;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.titulo {
+  color: var(color1);
+
+}
+

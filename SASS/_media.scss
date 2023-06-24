@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+    .gap{
+      gap:10px;
+    }
+    .screen {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    
+  }
+    .img-icon{
+      max-width: 40%;
+    }
+    .titulo{
+      font-size: 3rem;
+    }
+
+    .linea{
+      max-width: 100%;
+      max-height: 100%;
+
+    }
+
+    .video{
+      max-height: 300px;
+    }
+    .icon{
+      max-width: 20%;
+    }
+}
+
